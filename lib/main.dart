@@ -60,8 +60,8 @@ class _QuizPage extends State<QuizPage> {
     return Alert(
       context: context,
       type: AlertType.info,
-      title: "Info Alert",
-      desc: "This is an info alert with two actions.",
+      title: "Juego Terminado",
+      desc: "Ha completado todas las preguntas",
       buttons: [
         DialogButton(
           child: Text(
